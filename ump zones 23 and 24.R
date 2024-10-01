@@ -30,8 +30,8 @@ cape23 <- read_csv("data/cape trackman 2023.csv") %>%
                    )
              )
 
-connection_string = "mongodb+srv://HarborHawks:CCBL24champs!@harborhawks2024.yonksq3.mongodb.net/"
-connection = mongo(collection="Cape Trackman 24", db="Harbor_Hawks_24", url=connection_string)
+connection_string = # secret
+connection = # secret
 
 cape24 <- connection$find(
       query = '{"PitchCall": {"$in": ["BallCalled", "StrikeCalled"]}}',
